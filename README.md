@@ -1,3 +1,4 @@
+![9B187872-BFA1-4274-B8BE-935BC5F9C27B_1_105_c](https://github.com/user-attachments/assets/12988996-2923-41d1-98bb-d9d2ec4510cb)
 
 # VLA-Lab-Automation: Scaling Vision-Language-Action Models in Chemistry Robotics
 
