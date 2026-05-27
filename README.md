@@ -94,7 +94,9 @@ This is a very hard problem the VLA in a lab environment is a unsolved problem t
 
 Nvidia Project [link](https://docs.nvidia.com/learning/physical-ai/sim-to-real-so-101/latest/02-how-to-take-this-course.html?linkId=100000417984647)
 Nvidia [demo](https://x.com/NVIDIARobotics/status/2044933435530035236?s=20): 
-![[Pasted image 20260419090507.png|400]]
+
+<img width="1192" height="670" alt="image" src="https://github.com/user-attachments/assets/450b3b9d-166a-4f2b-b5de-b737fbf8f35f" />
+
 
 
 
@@ -155,11 +157,21 @@ The SO-101 is an open-source, 6-axis robotic arm specifically designed for AI im
 we collected 50 episodes where we move the test tube from the small stand into the big hole. 
 Given the gripper gripping the part in a scissor like action instead
 
-![[Pasted image 20260424094929.png|300]]
+<img width="914" height="880" alt="image" src="https://github.com/user-attachments/assets/28f6b16c-dd07-4b84-a300-acc82efcd651" />
+
 
 
 difference in the training data
-![[Pasted image 20260424095334.png|300]]![[Pasted image 20260424095355.png|300]]
+<img width="1002" height="752" alt="image" src="https://github.com/user-attachments/assets/b2822cc0-ef22-473b-8e15-598e394d980d" />
+
+<img width="1002" height="752" alt="image" src="https://github.com/user-attachments/assets/3b080843-9fdd-4244-8a76-857bc8bb91f2" />
+
+<img width="1021" height="728" alt="image" src="https://github.com/user-attachments/assets/943ff62f-82b3-49d5-9e56-bb07d4587e7b" />
+
+
+
+
+
 as we can see by the different ways to test tube can be in the rig, there was a lot of variance and noise already in performing seemingly the same task also the dripper then had to adapt to these situations and since we're working with a  Angular Grippers trying to grip a round object that's not always in the  same position basically only give us one point where the gripper actually grips the test tube. A parallel grippers would help a lot. 
 
 
@@ -191,7 +203,8 @@ ___
 
 for the yellow fealds that where not represented in the trianingsdata the acuuracy went form 9/10 to 5/10 
 
-![[Pasted image 20260424101846.png|400]]
+<img width="751" height="736" alt="image" src="https://github.com/user-attachments/assets/adb83b04-8779-4b12-b07b-2c19ff953fd1" />
+
 
 Learning the model around 3-5 tasks where it would need to pick it up out of different positions out of the rag would probably help it also with picking it up out of slots in the rag which were not represented in the training data
 
@@ -203,7 +216,8 @@ was not affecting it a lot as long as the preserved vision was still good if you
 
 After making all of the analysis I wanted to do I wanted to play with the top view camera position that completely broke the model even though I only moved it very very slightly. So before recording episodes, it should be considered to have a way to really fix the camera into position. 
 
-![[Pasted image 20260424104359.png|300]]
+<img width="1002" height="1302" alt="image" src="https://github.com/user-attachments/assets/b9b0bffd-ce88-4cde-81f9-dab8eaf65aad" />
+
 
 
 
@@ -312,10 +326,13 @@ PYTHONPATH=src CUDA_VISIBLE_DEVICES=0 python src/lerobot/scripts/lerobot_train.p
 
 I'm happy with the training run, looking at the loss it seems to have worked out quite well.
 
-![[Pasted image 20260419151349.png]]
-![[Pasted image 20260419151359.png]]
-![[Pasted image 20260419151413.png]]
-![[Pasted image 20260419151423.png]]
+
+<img width="3300" height="1260" alt="image" src="https://github.com/user-attachments/assets/4578b887-7cd4-44be-94c9-9192072ac48b" />
+<img width="3260" height="1362" alt="image" src="https://github.com/user-attachments/assets/7797811c-eb69-4a1c-a978-e1a2c89a70b9" />
+<img width="3294" height="1284" alt="image" src="https://github.com/user-attachments/assets/980fb298-d6af-4ad1-92c0-496c60dbcba4" />
+<img width="3282" height="1258" alt="image" src="https://github.com/user-attachments/assets/5bb1fcbb-27a7-4b76-885c-dd6db4391e1c" />
+
+
 it was trained on 1 A100 40 GB
 
 **Training Results**  
