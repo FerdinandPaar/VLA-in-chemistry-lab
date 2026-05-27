@@ -180,11 +180,7 @@ as we can see by the different ways to test tube can be in the rig, there was a 
 
 **Parallel Grippers:** The fingers move along a linear path to close in parallel. These are the industry standard for picking up rectangular or cylindrical objects because the clamping force is applied evenly across the surface.
 
-<p align="center">
-  <a href="https://www.youtube.com/embed/45ClRE2oxKQ?si=p_Pm2Pe0_2PB6fY8">
-    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Watch the video" width="560">
-  </a>
-</p>
+[![Watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/embed/45ClRE2oxKQ?si=p_Pm2Pe0_2PB6fY8)
 
 here we see a 
 
